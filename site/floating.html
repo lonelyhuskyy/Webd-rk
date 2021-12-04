@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Floating elememts</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            #p1{
+                color:#0000ff;
+                font-style: italic;
+                width: 200px;
+                float: left;
+                background-color: #00ff00;
+                border: 2px solid black;
+                padding: 2px;
+                margin-left: 5 px;
+                height: 160px;
+            }
+            #p2{
+                color:#ffdd00;
+                font-style: italic;
+                width: 200px;
+                float: left;
+                background-color: #aa0000;
+                border: 2px solid black;
+                padding: 2px;
+                margin-left: 5px;
+                height: 160px;
+                overflow: auto;
+            }
+            #p3{
+                color: cyan;
+                font-style: italic;
+                width: 200px;
+                float: left;
+                background-color:orangered;
+                border: 2px solid black;
+                padding: 2px;
+                margin-left: 5px;
+                height: 160px;
+                overflow: auto;
+            }
+            @media(min-width:1200px){
+                #p1{
+                    width: 80%;
+                }
+                #p2{
+                    width: 80%;
+                }
+                #p3{
+                    width: 80%;
+                }
+            }
+            @media(min-width:992px) and (max-width:1199px){
+                #p1{
+                    width: 50%;
+                }
+                #p2{
+                    width: 50%;
+                }
+                #p3{
+                    width: 50%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Floating</h1>
+        <div>
+        <p id="p1">
+            Passengers arriving from 'at risk' countries will have to undergo mandatory 
+            seven-day institutional quarantine, during which time they 
+            must take three RT-PCR tests - on the second, fourth and seventh days after arrival.
+        </p>
+        <p id="p2">
+            Those arriving from any other countries will have to compulsorily undergo RT-PCR test on 
+            arrival and on being found negative will have to undergo
+            14 days of home quarantine. If found positive they will be shifted to the hospital.
+        </p>
+        <p id="p3">Passengers planning to travel to or through India must submit on
+            the Air Suvidha online portal a self-declaration form with their travel details of the past 14 days,
+            a copy of their passport, a negative RT-PCR report no older
+            than 72 hours before their journey, and a declaration of authenticity of the test report.</p>
+        </div>
+    </body>
+</html>

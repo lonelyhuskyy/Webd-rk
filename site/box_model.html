@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Understanding Box model</title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+            }
+            body{
+                background-image: url("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg");
+                background-repeat: no-repeat;
+                background-color: olive;
+                text-align: center;
+                font-family: "Times New Roman", Helvetica, serif ;
+                
+            }
+            #outer{
+                background-color: darkblue;
+                padding: 10px;
+                border: 8px solid black;
+                margin: 20px;
+                width: 450px;
+                overflow:auto;
+            }
+            #inner{
+                color: indianred;
+                background-color: lightblue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">
+            Box Model
+        </h1>
+        <div id="outer">
+            <div id="inner">
+                Hey there! This webpage is designed for Understanding the box model in CSS.
+                We hope that you will like our page and for future please subscribe to our channel.
+            </div>
+        </div>
+    </body>
+</html>

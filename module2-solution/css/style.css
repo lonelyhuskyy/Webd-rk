@@ -19,7 +19,7 @@ h1{
 
 
 .row> div> div{
-    background-color: gray;
+    background-color: rgb(185, 185, 185);
     border: 2px solid black;
     height: 155px;
     overflow:auto;

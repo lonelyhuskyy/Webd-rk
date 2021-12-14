@@ -81,11 +81,12 @@ p{
     }
     .col-sm-6{
         width: 45%;
-        margin-left: 3%;
+        margin: 2%;
+        margin-bottom: 0%;
         margin-top: 1%;
     }
     .col-sm-12{
-        width: 93.5%;
+        width: 93%;
         margin: 3%;
     }
     #p3{
@@ -98,8 +99,32 @@ p{
     }
     #d1{
         position: relative;
+        left: 1.33%;
+    }
+    #d2{
+        position: relative;
         left: 0.25%;
     }
+    #d3{
+        position: relative;
+        left: 0.33%;
+    }
+}
+
+
+@media(max-width:767px){        
+    .col-xs-12{
+        float: left;
+        width: 85%;
+        margin-top: 5%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
+    #d1{
+        margin-top: 5%;
+    }
+  
+}
     #d2{
         position: relative;
         left: 0.75%;

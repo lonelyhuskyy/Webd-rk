@@ -125,23 +125,3 @@ p{
     }
   
 }
-    #d2{
-        position: relative;
-        left: 0.75%;
-    }
-    #d3{
-        position: relative;
-        left: 0.25%;
-    }
-}
-
-
-@media(max-width:767px){        
-    .col-xs-12{
-        float: left;
-        width: 89%;
-        margin-left: 5.5%;
-        margin-right: 5.5%;
-        margin-bottom: 4.5%;
-    }
-}

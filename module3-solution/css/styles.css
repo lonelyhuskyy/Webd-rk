@@ -11,9 +11,12 @@ body{
     border: 0;
 }
 .navbar-header{
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .navbar-brand h1{
+    position: relative;
+    top: -5px;
     line-height: 0.75;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-shadow: 1px 1px 1px #111;
@@ -45,7 +48,7 @@ body{
 ul{
     background-color: lightyellow;
 }
-.container-fluid > .navbar-header, .container > .navbar-collapse{
+.container > .navbar-collapse{
     margin-left: -30px;
     margin-right: -30px;
 }

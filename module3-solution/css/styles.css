@@ -108,6 +108,7 @@ h3{
     .items{
         position: relative;
         width: 30%;
+        margin-bottom: 5%;
     }
     #item3{
         right: -8%;

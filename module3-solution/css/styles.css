@@ -34,8 +34,7 @@ body{
     border: 1px solid #61122f;
 } 
 
-#item1{
-    margin-top: 20px;
+.items{
     padding-top: 20px;
     background-color: lightyellow;
     border: 1px solid #000000;
@@ -72,15 +71,52 @@ h3{
 
 @media(max-width:767px)
 {
-    #item1{
-        width: 80%;
+    .items{
+        width: 85%;
         position: relative;
-        right: -10%;
-        margin-bottom: 5% ;
+        right: -7.5%;
+        margin-bottom: 5%;
     }
     #collapsable-nav{
         background-color: lightyellow;
     }
+}
+
+@media(min-width:768px)and (max-width:991px)
+{
+    .items{
+        width: 42.5%;
+        position: relative;
+        margin-bottom: 5%;        
+    }
+    #item1{
+        left: 5%;
+    }
+    #item2{
+        left: 10%;
+    }
+    #item3{
+        width: 90%;
+        left: 5%;
+    }
+}
+
+@media(min-width:992px)
+{
+    .items{
+        position: relative;
+        width: 30%;
+    }
+    #item3{
+        right: -8%;
+    }
+    #item2{
+        right: -5%;
+    }
+    #item1{
+        right: -1.9%;
+    }
+    
 }
 
 

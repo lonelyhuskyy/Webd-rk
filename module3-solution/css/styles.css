@@ -76,6 +76,7 @@ h3{
         position: relative;
         right: -7.5%;
         margin-bottom: 5%;
+        height: 505px;
     }
     #collapsable-nav{
         background-color: lightyellow;
@@ -87,7 +88,8 @@ h3{
     .items{
         width: 42.5%;
         position: relative;
-        margin-bottom: 5%;        
+        margin-bottom: 5%;
+        height: 505px;        
     }
     #item1{
         left: 5%;
